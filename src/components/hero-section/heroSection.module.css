@@ -1,0 +1,51 @@
+.cover {
+    height: 650px;
+    background: linear-gradient(rgba(48, 55, 63, 0.64), rgba(0, 0, 0, 0.4)), url(../../assets/Images/home_cover.jfif) center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    margin: 0px 164px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    background: linear-gradient(90deg, #865BCE 0%, #682AD0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 51px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    width: 55%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 870px) {
+    .content {
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 19px;
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 726px) {
+    .content{
+        margin: 0px 20px;
+        margin-top: 40px;
+    }
+}
